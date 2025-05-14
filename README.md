@@ -2,6 +2,12 @@
 
 TLDR; "Prompt Engineering" will never be completely subsumed by AGI/ASI, no matter how powerful it gets
 
+1. A trained LLM has a fixed information budget ≈ K(M) bits (apart from its temporary context window).
+2. A human intent I can have arbitrarily high Kolmogorov complexity K(I).
+3. Whenever K(I) > K(M) (or exceeds what the model can deploy on a single problem), the model’s internal representation R_M(I) necessarily omits Δ = K(I | R_M(I)) > 0 bits.
+4. Those missing bits must come from outside the model—typically via the user’s prompt, clarifications, or approval signals.
+5. Therefore some form of external guidance (“prompt engineering”) is irreducible if we demand perfect fidelity between output and intent.
+
 # The Irreducible Role of External Guidance for High-Fidelity LLM Alignment:
 ## An Argument from Finite Models and Kolmogorov Complexity
 
