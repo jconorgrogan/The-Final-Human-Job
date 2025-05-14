@@ -1,6 +1,6 @@
 # The-Final-Human-Job
 
-TLDR; "Prompt Engineering" will never be completely subsumed by AGI/ASI, no matter how powerful it gets
+TLDR; "Prompt Engineering" will **never** be completely subsumed by AGI/ASI, no matter how powerful the AI gets
 
 1. A trained LLM has a fixed information budget ≈ K(M) bits (apart from its temporary context window).
 2. A human intent I can have arbitrarily high Kolmogorov complexity K(I).
