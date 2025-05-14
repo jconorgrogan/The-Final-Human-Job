@@ -1,5 +1,6 @@
 # The-Final-Human-Job
-"Prompt Engineering" will be the last task disrupted by AI + LLMs- a mathematical argument 
+
+TLDR; "Prompt Engineering" will never be completely subsumed by AGI/ASI, no matter how powerful it gets
 
 # The Irreducible Role of External Guidance for High-Fidelity LLM Alignment:
 ## An Argument from Finite Models and Kolmogorov Complexity
